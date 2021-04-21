@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragments_navigation"
+    app:startDestination="@id/miAbout">
+
+    <fragment
+        android:id="@+id/miAbout"
+        android:name="hr.santolin.rssparser.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/miArticles"
+        android:name="hr.santolin.rssparser.ArticlesFragment"
+        android:label="Articles"
+        tools:layout="@layout/fragment_articles" />
+
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">rssParser</string>
+    <string name="sort">Sort</string>
+    <string name="exit">exit</string>
+    <string name="about">about</string>
+    <string name="articles">Articles</string>
+</resources>
